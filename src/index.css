@@ -177,3 +177,11 @@ body {
 .cancel:hover {
   background-color: #e91b1ee0;
 }
+@media screen and (max-width: 415px) {
+  .done {
+    margin-top: 0.3em;
+  }
+  .input {
+    width: 100%;
+  }
+}
