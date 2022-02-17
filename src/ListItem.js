@@ -26,7 +26,7 @@ const ListItem = ({
     <div className="task-container">
       <section className="task">
         <FaTasks className="task-icon" />
-        <p className="task-name">{name}</p>
+        <p className={`task-name ${completed && "completed"}`}>{name}</p>
         <div className="btn-container">
           <input
             type="checkbox"
